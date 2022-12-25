@@ -1,0 +1,170 @@
+.conteiner{
+width: 100vw;
+height: 100vh;
+margin:0 auto;
+background-image: url(../Picture1.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size:cover;
+
+}
+.form{
+    width: 700px;
+    height:600px;
+
+    margin:0px 700px 20px 400px;
+    
+    border-radius: 3%;
+    background-color: rgba(255, 255, 255,0.3);
+   
+}
+
+    
+
+h1{
+    font-size: 25px;
+    /* margin-left: 91px; */
+    padding-top: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    color:  rgb(76, 246, 9); 
+}
+/* სახელის დივი */
+.name{
+    width:500px;
+    margin: 0 auto;
+    font-size: 22px;
+    border-bottom: 500px;
+    border-bottom: 3px solid  rgb(76, 246, 9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+   margin-bottom: 15px;
+
+}
+label {
+    width: 100px;
+    margin-right: 400px;
+    margin-bottom: 10px;
+    text-align: left;
+    color:rgb(76, 246, 9) ;
+    
+  }
+  input{
+    width: 500px;
+    margin-left: 0;
+    border: none;
+   
+    outline: none;
+    background-color: rgba(255, 255, 255,0.3);
+    
+  }
+  /* მეილის დივი */
+  .email{
+    width:500px;
+    margin: 0 auto;
+    font-size: 22px;
+    border: none;
+    border-bottom: 500px;
+    border-bottom: 3px solid  rgb(76, 246, 9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 25px;
+
+
+  }
+  /* რადიოს დივი */
+.radio{
+    margin: 0 auto;
+    font-size: 20px;
+    vertical-align: middle;
+}
+.male{
+    margin-left: 100px;
+}
+.female{
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+/* რადიოს დივი */
+ .date{
+    width:500px;
+    margin: 0 auto;
+    font-size: 22px;
+    border: none;
+    border-bottom: 500px;
+    border-bottom: 3px solid  rgb(76, 246, 9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 25px;
+
+ }
+ .date1{
+    width: 120px;
+    margin-left:10px;
+    
+ }
+  /* ქვეყანის დივი */
+ .country{
+    width:500px;
+    margin: 0 auto;
+    font-size: 22px;
+    border: none;
+    border-bottom: 500px;
+    border-bottom: 3px solid  rgb(76, 246, 9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 25px;
+ }
+/* ჩექბოქსი */
+ .checkbox{
+    width: 100px;
+    display: flex;
+   flex-direction: row;
+   
+   
+ }
+.checkbox1{
+    margin-left: 100px;
+}
+
+.checkbox2{
+    margin-left: 100px;
+    
+}
+.checkbox3{
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+ /* ღილაკები */
+
+ .reset{
+    width: 110px;
+    margin-left:79px;
+    padding: 5px;
+    border-radius: 16%;
+    background-color: red;
+    color: white;
+ }
+ .confimr{
+    width: 110px;
+    margin-left:20px;
+    padding: 5px;
+    border-radius: 16%;
+    background-color:  rgb(76, 246, 9);
+    color: white;
+    margin-bottom: 10px;
+ }
+
+ article{
+    width: 200px;
+    margin-left: 10px;
+    border: 5px solid blue;
+ }
